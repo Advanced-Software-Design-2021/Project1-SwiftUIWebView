@@ -144,7 +144,18 @@ struct WebView: UIViewRepresentable, WebViewHandlerDelegate
                 {
                     let request = URLRequest(url: url)
                     webView.load(request)
+                    
+                    let databaseObject = Databasefunctions()
+                    let dictionary = ["url" : value] as NSDictionary
+                    databaseObject.writeToDataBase(key: "homepage", dictionary: dictionary)
+                    
+                    databaseObject.getHomepage {homepage in
+                        print(homepage)}
+                    
+                    databaseObject.readfromDatabase()
                 }
+                
+
                 
                /* let javascriptFunction = "valueGotFromIOS(\(value));"
                 webView.evaluateJavaScript(javascriptFunction) { (response, error) in
