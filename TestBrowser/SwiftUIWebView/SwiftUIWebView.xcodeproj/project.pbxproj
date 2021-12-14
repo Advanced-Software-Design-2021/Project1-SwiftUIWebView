@@ -10,13 +10,13 @@
 		40176AC12760EE9E00E6F50F /* DatabaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40176AC02760EE9E00E6F50F /* DatabaseFunction.swift */; };
 		40176AC32760F09600E6F50F /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40176AC22760F09600E6F50F /* PListManager.swift */; };
 		40176AC52760F0E500E6F50F /* URLValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40176AC42760F0E500E6F50F /* URLValidator.swift */; };
-		403A1E6B275E5F3300911ED1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 403A1E6A275E5F3300911ED1 /* GoogleService-Info.plist */; };
-		403A1E6C275E5F3300911ED1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 403A1E6A275E5F3300911ED1 /* GoogleService-Info.plist */; };
-		403A1E6D275E5F3300911ED1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 403A1E6A275E5F3300911ED1 /* GoogleService-Info.plist */; };
 		403A1E70275E607F00911ED1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 403A1E6F275E607F00911ED1 /* FirebaseAnalytics */; };
 		403A1E72275E607F00911ED1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 403A1E71275E607F00911ED1 /* FirebaseAuth */; };
 		403A1E74275E607F00911ED1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 403A1E73275E607F00911ED1 /* FirebaseDatabase */; };
 		403A1E76275E607F00911ED1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 403A1E75275E607F00911ED1 /* FirebaseFirestore */; };
+		40939D6627691FA000BFF57C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40939D6527691FA000BFF57C /* GoogleService-Info.plist */; };
+		40939D6727691FA000BFF57C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40939D6527691FA000BFF57C /* GoogleService-Info.plist */; };
+		40939D6827691FA000BFF57C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40939D6527691FA000BFF57C /* GoogleService-Info.plist */; };
 		43DA34E6839B14FADDBF5DC5 /* Pods_SwiftUIWebViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59252C663B97E5CDFC9974D9 /* Pods_SwiftUIWebViewTests.framework */; };
 		617F4E19045D1285FD7E0436 /* Pods_SwiftUIWebView_SwiftUIWebViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414EEFCFAB76D32E19B60258 /* Pods_SwiftUIWebView_SwiftUIWebViewUITests.framework */; };
 		6E429F6A24528DD400A5678D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E429F6924528DD400A5678D /* AppDelegate.swift */; };
@@ -57,7 +57,7 @@
 		40176AC02760EE9E00E6F50F /* DatabaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFunction.swift; sourceTree = "<group>"; };
 		40176AC22760F09600E6F50F /* PListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
 		40176AC42760F0E500E6F50F /* URLValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLValidator.swift; sourceTree = "<group>"; };
-		403A1E6A275E5F3300911ED1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../SF-Fall/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40939D6527691FA000BFF57C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ViewModel/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		414EEFCFAB76D32E19B60258 /* Pods_SwiftUIWebView_SwiftUIWebViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIWebView_SwiftUIWebViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59252C663B97E5CDFC9974D9 /* Pods_SwiftUIWebViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIWebViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C94D66339975F6DEC9B28C8 /* Pods-SwiftUIWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIWebViewTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIWebViewTests/Pods-SwiftUIWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,11 +174,11 @@
 				6E429FA42453F64700A5678D /* Info.plist */,
 				6E429F6924528DD400A5678D /* AppDelegate.swift */,
 				6E429F6B24528DD400A5678D /* SceneDelegate.swift */,
+				40939D6527691FA000BFF57C /* GoogleService-Info.plist */,
 				21C19098275015F400FEC1E6 /* ViewModel */,
 				2128688B274F076E00A3C0B5 /* Model */,
 				2128688A274F073A00A3C0B5 /* View */,
 				6E429F6F24528DD600A5678D /* Assets.xcassets */,
-				403A1E6A275E5F3300911ED1 /* GoogleService-Info.plist */,
 				6E429F7424528DD600A5678D /* LaunchScreen.storyboard */,
 				6E429F7124528DD600A5678D /* Preview Content */,
 			);
@@ -354,7 +354,7 @@
 			files = (
 				6E429FA12452A2D200A5678D /* www in Resources */,
 				6E429F7624528DD600A5678D /* LaunchScreen.storyboard in Resources */,
-				403A1E6B275E5F3300911ED1 /* GoogleService-Info.plist in Resources */,
+				40939D6627691FA000BFF57C /* GoogleService-Info.plist in Resources */,
 				6E429F7324528DD600A5678D /* Preview Assets.xcassets in Resources */,
 				6E429F7024528DD600A5678D /* Assets.xcassets in Resources */,
 			);
@@ -364,7 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403A1E6C275E5F3300911ED1 /* GoogleService-Info.plist in Resources */,
+				40939D6727691FA000BFF57C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403A1E6D275E5F3300911ED1 /* GoogleService-Info.plist in Resources */,
+				40939D6827691FA000BFF57C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
