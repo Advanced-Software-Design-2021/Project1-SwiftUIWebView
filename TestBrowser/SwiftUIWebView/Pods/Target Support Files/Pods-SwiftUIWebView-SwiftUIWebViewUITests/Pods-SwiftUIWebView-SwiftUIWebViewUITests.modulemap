@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIWebView_SwiftUIWebViewUITests {
+  umbrella header "Pods-SwiftUIWebView-SwiftUIWebViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
